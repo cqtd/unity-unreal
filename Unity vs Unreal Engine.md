@@ -10,9 +10,9 @@
 
 에셋을 프로젝트에 임포트하면 Raw Data를 항상 유지하고 있다. 그러면 어떻게 미리 에셋을 엔진에서 사용할 수 있도록 가공해두는걸까? 프로젝트의 Assets 폴더에 리소스를 넣게 되면, 임포트 설정을 해당 파일의 meta에 저장한다. 그리고 그 임포트 설정으로 Library 폴더에 데이터를 Cache해둔다. 외부 툴에서 프로젝트내의 폴더로 곧바로 리소스를 저장해 덮어쓰기를 하더라도, 지정되어있던 임포트 설정에 따라 새로운 Cache가 생성된다.
 
-![image-20201222202153752](images\image-20201222202153752.png)![image-20201222202240870](images\image-20201222202240870.png)
-
-![image-20201222202335833](images\image-20201222202335833.png)
+![image-20201222202153752](https://raw.githubusercontent.com/cqtd/unity-unreal/main/images/image-20201222202153752.png)  
+![image-20201222202240870](https://raw.githubusercontent.com/cqtd/unity-unreal/main/images/image-20201222202240870.png)  
+![image-20201222202335833](https://raw.githubusercontent.com/cqtd/unity-unreal/main/images/image-20201222202335833.png)  
 
 #### 언리얼
 
@@ -20,11 +20,11 @@
 
 - `rigging`된 fbx를 `SkeletalMesh`로 임포트하면, `SkeletalMesh`, `PhysicsAsset`, `Skeleton` 최소 3가지 에셋이 생성된다.
 
-  ![image-20201222201453261](images\image-20201222201453261.png)
+  ![image-20201222201453261](https://raw.githubusercontent.com/cqtd/unity-unreal/main/images/image-20201222201453261.png)
 
 - source file의 경로를 저장하고 있어, `3ds max` 같은 모델링 툴에서 수정 후 source file 의 위치에 덮어쓰기로 저장한 뒤 리임포트하면 새로운 파일을 받아온다.
 
-  ![image-20201222201624077](images\image-20201222201624077.png)
+  ![image-20201222201624077](https://raw.githubusercontent.com/cqtd/unity-unreal/main/images/image-20201222201624077.png)
 
 ### 에셋 참조 관리
 
